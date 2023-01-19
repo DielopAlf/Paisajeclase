@@ -37,7 +37,7 @@ public class ScriptNave : MonoBehaviour
       float roll = velocidadRotacion * Input.GetAxis("Rotate")* Time.deltaTime;
 
       NaveEjes.Rotate(pitch,yaw,roll);
-     
+                                       
 
 
    }
@@ -65,7 +65,7 @@ public class ScriptNave : MonoBehaviour
       NaveEjes.position += NaveEjes.forward*velocidad*Time.deltaTime;
    }
 
-
+                                                                                    
 
 
 }
