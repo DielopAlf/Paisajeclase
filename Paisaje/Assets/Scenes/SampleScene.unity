@@ -249,7 +249,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 88aa41519b6f6fa498d0ba4ecfcf3951, type: 3}
   m_Name: 
@@ -592,6 +592,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsKinematic
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522611456602411833, guid: 85a01210c89e9e6498b4cbdee6433ff2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4522611456602411833, guid: 85a01210c89e9e6498b4cbdee6433ff2,
         type: 3}
