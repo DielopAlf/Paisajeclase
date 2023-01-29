@@ -14,7 +14,7 @@ public class ScriptNave : MonoBehaviour
    {
        rb = GetComponent<Rigidbody>();
        rb.useGravity=false;
-        //velocidad=10f; para empezar volando
+        velocidad=10f; //para empezar volando
    
    }
 
