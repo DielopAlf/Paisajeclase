@@ -14,7 +14,7 @@ public class ScriptNave : MonoBehaviour
    {
        rb = GetComponent<Rigidbody>();
        rb.useGravity=false;
-        velocidad=10f; //para empezar volando
+        velocidad=-5f; //para empezar volando
    
    }
 
@@ -38,6 +38,7 @@ public class ScriptNave : MonoBehaviour
 
       NaveEjes.Rotate(pitch,yaw,roll);
                                        
+        transform.position += (transform.forward * Time.deltaTime * velocidad);
 
 
    }
